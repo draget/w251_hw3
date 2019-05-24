@@ -6,9 +6,9 @@ Cloud storage output:
 
 http://s3.au-syd.cloud-object-storage.appdomain.cloud/hw3draget
 
-detect.py - Run in Ubuntu container on TX2
-forward.py - Run in Alpine container on TX2
-sav.py - Run in Ubuntu container on cloud VM
+- detect.py - Run in Ubuntu container on TX2
+- forward.py - Run in Alpine container on TX2
+- sav.py - Run in Ubuntu container on cloud VM
 
 In addition an Alpine container with MQTT broker (Mosquitto) was present on both TX2 and cloud VM (host name "mosquitto" on a Docker bridge network). On the cloud VM, 1883 from the VM is mapped to the container to accept incoming connections.
 
